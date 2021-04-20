@@ -119,5 +119,6 @@
     <driver id="vertica">
       <option name="auto-sync" value="true" />
     </driver>
+    <driver id="dm.jdbc.driver.DmDriver" name="dm.jdbc.driver.DmDriver" driver-class="dm.jdbc.driver.DmDriver" />
   </component>
 </application>
