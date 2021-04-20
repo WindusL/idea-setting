@@ -119,6 +119,18 @@
     <driver id="vertica">
       <option name="auto-sync" value="true" />
     </driver>
-    <driver id="dm.jdbc.driver.DmDriver" name="dm.jdbc.driver.DmDriver" driver-class="dm.jdbc.driver.DmDriver" />
+    <driver id="java.sql.Driver" name="DM Database" driver-class="dm.jdbc.driver.DmDriver" jre-path="/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home">
+      <url-template name="default" template="jdbc:dm://{host::localhost}?[:{port::5236}][/{database}?]" />
+      <url-template name="default" template="jdbc:dm://{host::localhost}?[:{port::5236}][/DMSERVER?schema={database}]" />
+      <option name="auto-commit" value="true" />
+      <option name="auto-sync" value="true" />
+      <option name="format-sources-on-sync" value="true" />
+      <option name="send-app-info" value="true" />
+      <option name="source-loading" value="USER_SOURCES" />
+      <option name="schema-control" value="AUTOMATIC" />
+      <library>
+        <url>file://$MAVEN_REPOSITORY$/dm/jdbc/driver/dm/dm-18/dm-dm-18.jar</url>
+      </library>
+    </driver>
   </component>
 </application>
