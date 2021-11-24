@@ -24,7 +24,7 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
-  <template name="cc" value="/**&#10; * $END$&#10; * @author Windus&#10; * @date $date$ $time$&#10; */" description="类注释" toReformat="false" toShortenFQNames="true">
+  <template name="cc" value="/**&#10; * $END$&#10; * @author Windus&#10; * @since $date$ $time$&#10; */" description="类注释" toReformat="false" toShortenFQNames="true">
     <variable name="date" expression="date()" defaultValue="" alwaysStopAt="true" />
     <variable name="time" expression="time()" defaultValue="" alwaysStopAt="true" />
     <context>
