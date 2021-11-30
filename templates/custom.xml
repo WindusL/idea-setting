@@ -15,7 +15,7 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="mc" value="/**&#10; * $END$&#10; *&#10; * @param $START$&#10; * @return $return$&#10; * @author Windus&#10; * @date $date$ $time$&#10; */" description="方法文档注释" toReformat="false" toShortenFQNames="true">
+  <template name="mc" value="/**&#10; * $END$&#10; *&#10; * @param $START$&#10; * @return $return$&#10; * @author Windus&#10; * @since  $date$ $time$&#10; */" description="方法文档注释" toReformat="false" toShortenFQNames="true">
     <variable name="START" expression="methodParameters()" defaultValue="" alwaysStopAt="true" />
     <variable name="return" expression="methodReturnType()" defaultValue="" alwaysStopAt="true" />
     <variable name="date" expression="date()" defaultValue="" alwaysStopAt="true" />
