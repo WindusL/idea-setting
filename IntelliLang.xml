@@ -1,0 +1,9 @@
+<application>
+  <component name="LanguageInjectionConfiguration">
+    <injection language="MySQL" injector-id="xml">
+      <display-name>selectKey</display-name>
+      <single-file value="true" />
+      <place><![CDATA[xmlTag().withLocalName(string().equalTo("selectKey")).withNamespace(string().equalTo("http://mybatis.org/dtd/mybatis-3-mapper.dtd"))]]></place>
+    </injection>
+  </component>
+</application>
