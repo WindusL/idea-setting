@@ -7,7 +7,7 @@
       <artifact id="Cassandra" name="Cassandra" use="true" version="1.4" />
     </driver>
     <driver id="mongo">
-      <artifact id="MongoDB" name="MongoDB" use="true" version="1.13" />
+      <artifact id="MongoDB" name="MongoDB" use="true" version="1.15" />
     </driver>
     <driver id="mysql.8">
       <artifact />
