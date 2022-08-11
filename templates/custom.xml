@@ -7,7 +7,7 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="lme" value="log.error(&quot;$className$ ---&gt; $methodName$ 异常,请求参数 &lt;==&gt;, $methodParam$={}&quot;, e $END$);" description="打印方法异常日志" toReformat="false" toShortenFQNames="true">
+  <template name="lme" value="log.error(&quot;$className$ ---&gt; $methodName$ 异常,请求参数 &lt;==&gt;, $methodParam$={}&quot;, $END$);" description="打印方法异常日志" toReformat="false" toShortenFQNames="true">
     <variable name="className" expression="className()" defaultValue="" alwaysStopAt="true" />
     <variable name="methodName" expression="methodName()" defaultValue="" alwaysStopAt="true" />
     <variable name="methodParam" expression="methodParameters()" defaultValue="" alwaysStopAt="true" />
