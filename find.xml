@@ -10,12 +10,12 @@
     <mask>*.mxml</mask>
     <mask>*.jsp</mask>
     <mask>jena-arq</mask>
-    <mask>*.yml</mask>
     <mask>ma</mask>
     <mask>pom.xml</mask>
     <mask>*.pom</mask>
     <mask>*.java</mask>
     <mask>*.properties</mask>
     <mask>*.xml</mask>
+    <mask>*.yml</mask>
   </component>
 </application>
