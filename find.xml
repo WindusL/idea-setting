@@ -14,8 +14,8 @@
     <mask>pom.xml</mask>
     <mask>*.pom</mask>
     <mask>*.java</mask>
-    <mask>*.xml</mask>
     <mask>*.properties</mask>
     <mask>*.yml</mask>
+    <mask>*.xml</mask>
   </component>
 </application>
