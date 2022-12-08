@@ -15,9 +15,9 @@
     <mask>ma</mask>
     <mask>pom.xml</mask>
     <mask>*.pom</mask>
-    <mask>*.java</mask>
     <mask>*.yml</mask>
     <mask>*.properties</mask>
     <mask>*.xml</mask>
+    <mask>*.java</mask>
   </component>
 </application>
