@@ -8,9 +8,11 @@
       <mapping pattern=".ideavimrc" type="PLAIN_TEXT" />
       <mapping ext="store" type="PLAIN_TEXT" />
       <mapping ext="classen" type="PLAIN_TEXT" />
+      <mapping ext="factories" type="PLAIN_TEXT" />
       <mapping ext="filter" type="PLAIN_TEXT" />
       <mapping ext="license" type="PLAIN_TEXT" />
       <mapping ext="init" type="PLAIN_TEXT" />
+      <mapping ext="imports" type="PLAIN_TEXT" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="psd" approved="true" type="Image" />
       <removed_mapping ext="qrc" approved="true" type="XML" />
