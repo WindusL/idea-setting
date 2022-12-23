@@ -13,6 +13,8 @@
       <mapping ext="license" type="PLAIN_TEXT" />
       <mapping ext="init" type="PLAIN_TEXT" />
       <mapping ext="imports" type="PLAIN_TEXT" />
+      <mapping ext="yaml" type="YAML" />
+      <mapping ext="yml" type="YAML" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="psd" approved="true" type="Image" />
       <removed_mapping ext="qrc" approved="true" type="XML" />
