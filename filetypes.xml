@@ -10,6 +10,7 @@
       <mapping ext="classen" type="PLAIN_TEXT" />
       <mapping ext="factories" type="PLAIN_TEXT" />
       <mapping ext="filter" type="PLAIN_TEXT" />
+      <mapping ext="register" type="PLAIN_TEXT" />
       <mapping ext="license" type="PLAIN_TEXT" />
       <mapping ext="init" type="PLAIN_TEXT" />
       <mapping ext="imports" type="PLAIN_TEXT" />
