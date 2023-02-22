@@ -23,7 +23,7 @@
     <option name="IS_WHEEL_FONTCHANGE_ENABLED" value="true" />
   </component>
   <component name="InlayHintsSettings">
-    <option name="lastViewedProviderKeyId" value="parameter.hints.old" />
+    <option name="lastViewedProviderKeyId" value="RelatedProblems" />
   </component>
   <component name="TodoConfiguration">
     <pattern pattern="\btodo\b.*" />
